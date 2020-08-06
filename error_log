@@ -1,0 +1,92 @@
+[19-Jun-2020 09:20:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/Form.php:1) in /home3/mclreojt/public_html/Form.php on line 3
+[19-Jun-2020 09:22:31 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/Form.php:1) in /home3/mclreojt/public_html/Form.php on line 3
+[19-Jun-2020 09:22:39 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/Form.php:1) in /home3/mclreojt/public_html/Form.php on line 3
+[19-Jun-2020 09:22:59 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/Form.php:1) in /home3/mclreojt/public_html/Form.php on line 3
+[19-Jun-2020 09:23:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/Form.php:1) in /home3/mclreojt/public_html/Form.php on line 3
+[19-Jun-2020 09:23:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/Form.php:1) in /home3/mclreojt/public_html/Form.php on line 3
+[19-Jun-2020 09:23:26 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/Form.php:1) in /home3/mclreojt/public_html/Form.php on line 3
+[19-Jun-2020 09:32:22 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/Form.php:1) in /home3/mclreojt/public_html/Form.php on line 3
+[19-Jun-2020 09:32:41 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/Form.php:1) in /home3/mclreojt/public_html/Form.php on line 3
+[19-Jun-2020 09:32:47 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/Form.php:1) in /home3/mclreojt/public_html/Form.php on line 3
+[19-Jun-2020 09:33:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/mclreojt/public_html/Form.php:1) in /home3/mclreojt/public_html/Form.php on line 6
+[19-Jun-2020 09:37:10 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/Form.php:1) in /home3/mclreojt/public_html/Form.php on line 3
+[19-Jun-2020 22:37:57 Asia/Manila] PHP Warning:  getimagesize(Images\Mcl_logo2.jpg): failed to open stream: No such file or directory in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php on line 1237
+[19-Jun-2020 22:37:57 Asia/Manila] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: Images\Mcl_logo2.jpg in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php:271
+Stack trace:
+#0 /home3/mclreojt/public_html/Includes/FPDF/fpdf.php(1239): FPDF->Error('Missing or inco...')
+#1 /home3/mclreojt/public_html/Includes/FPDF/fpdf.php(885): FPDF->_parsejpg('Images\\Mcl_logo...')
+#2 /home3/mclreojt/public_html/PDFForm.php(214): FPDF->Image('Images\\Mcl_logo...', 10, 8, 47.8, 'PNG')
+#3 {main}
+  thrown in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php on line 271
+[19-Jun-2020 22:38:12 Asia/Manila] PHP Warning:  getimagesize(Images\Mcl_logo2.jpg): failed to open stream: No such file or directory in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php on line 1237
+[19-Jun-2020 22:38:12 Asia/Manila] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: Images\Mcl_logo2.jpg in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php:271
+Stack trace:
+#0 /home3/mclreojt/public_html/Includes/FPDF/fpdf.php(1239): FPDF->Error('Missing or inco...')
+#1 /home3/mclreojt/public_html/Includes/FPDF/fpdf.php(885): FPDF->_parsejpg('Images\\Mcl_logo...')
+#2 /home3/mclreojt/public_html/PDFForm.php(214): FPDF->Image('Images\\Mcl_logo...', 10, 8, 47.8, 'PNG')
+#3 {main}
+  thrown in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php on line 271
+[19-Jun-2020 09:38:36 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/Form.php:1) in /home3/mclreojt/public_html/Form.php on line 3
+[19-Jun-2020 09:38:55 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/Form.php:1) in /home3/mclreojt/public_html/Form.php on line 3
+[19-Jun-2020 22:39:42 Asia/Manila] PHP Warning:  getimagesize(Images\Mcl_logo2.jpg): failed to open stream: No such file or directory in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php on line 1237
+[19-Jun-2020 22:39:42 Asia/Manila] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: Images\Mcl_logo2.jpg in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php:271
+Stack trace:
+#0 /home3/mclreojt/public_html/Includes/FPDF/fpdf.php(1239): FPDF->Error('Missing or inco...')
+#1 /home3/mclreojt/public_html/Includes/FPDF/fpdf.php(885): FPDF->_parsejpg('Images\\Mcl_logo...')
+#2 /home3/mclreojt/public_html/PDFForm.php(214): FPDF->Image('Images\\Mcl_logo...', 10, 8, 47.8, 'PNG')
+#3 {main}
+  thrown in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php on line 271
+[19-Jun-2020 22:39:51 Asia/Manila] PHP Warning:  getimagesize(Images\Mcl_logo2.jpg): failed to open stream: No such file or directory in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php on line 1237
+[19-Jun-2020 22:39:51 Asia/Manila] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: Images\Mcl_logo2.jpg in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php:271
+Stack trace:
+#0 /home3/mclreojt/public_html/Includes/FPDF/fpdf.php(1239): FPDF->Error('Missing or inco...')
+#1 /home3/mclreojt/public_html/Includes/FPDF/fpdf.php(885): FPDF->_parsejpg('Images\\Mcl_logo...')
+#2 /home3/mclreojt/public_html/PDFForm.php(214): FPDF->Image('Images\\Mcl_logo...', 10, 8, 47.8, 'PNG')
+#3 {main}
+  thrown in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php on line 271
+[19-Jun-2020 22:39:54 Asia/Manila] PHP Warning:  getimagesize(Images\Mcl_logo2.jpg): failed to open stream: No such file or directory in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php on line 1237
+[19-Jun-2020 22:39:54 Asia/Manila] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: Images\Mcl_logo2.jpg in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php:271
+Stack trace:
+#0 /home3/mclreojt/public_html/Includes/FPDF/fpdf.php(1239): FPDF->Error('Missing or inco...')
+#1 /home3/mclreojt/public_html/Includes/FPDF/fpdf.php(885): FPDF->_parsejpg('Images\\Mcl_logo...')
+#2 /home3/mclreojt/public_html/PDFForm.php(214): FPDF->Image('Images\\Mcl_logo...', 10, 8, 47.8, 'PNG')
+#3 {main}
+  thrown in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php on line 271
+[19-Jun-2020 09:45:51 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 09:47:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 09:47:10 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 09:47:30 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 09:47:31 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 09:48:06 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 09:48:56 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 09:49:16 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 6
+[19-Jun-2020 09:49:42 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 09:50:40 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 09:51:23 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 09:51:57 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 22:52:19 Asia/Manila] PHP Warning:  getimagesize(Images\Mcl_logo2.jpg): failed to open stream: No such file or directory in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php on line 1237
+[19-Jun-2020 22:52:19 Asia/Manila] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: Images\Mcl_logo2.jpg in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php:271
+Stack trace:
+#0 /home3/mclreojt/public_html/Includes/FPDF/fpdf.php(1239): FPDF->Error('Missing or inco...')
+#1 /home3/mclreojt/public_html/Includes/FPDF/fpdf.php(885): FPDF->_parsejpg('Images\\Mcl_logo...')
+#2 /home3/mclreojt/public_html/PDFForm.php(214): FPDF->Image('Images\\Mcl_logo...', 10, 8, 47.8, 'PNG')
+#3 {main}
+  thrown in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php on line 271
+[19-Jun-2020 22:53:41 Asia/Manila] PHP Warning:  getimagesize(Images\Mcl_logo2.jpg): failed to open stream: No such file or directory in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php on line 1237
+[19-Jun-2020 22:53:41 Asia/Manila] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: Images\Mcl_logo2.jpg in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php:271
+Stack trace:
+#0 /home3/mclreojt/public_html/Includes/FPDF/fpdf.php(1239): FPDF->Error('Missing or inco...')
+#1 /home3/mclreojt/public_html/Includes/FPDF/fpdf.php(885): FPDF->_parsejpg('Images\\Mcl_logo...')
+#2 /home3/mclreojt/public_html/PDFForm.php(214): FPDF->Image('Images\\Mcl_logo...', 10, 8, 47.8, 'PNG')
+#3 {main}
+  thrown in /home3/mclreojt/public_html/Includes/FPDF/fpdf.php on line 271
+[19-Jun-2020 10:00:40 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 10:01:39 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 10:04:51 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 10:07:13 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 11:59:50 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 23:50:26 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[19-Jun-2020 23:51:26 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/mclreojt/public_html/FormMsg.php:1) in /home3/mclreojt/public_html/FormMsg.php on line 3
+[26-Jun-2020 03:52:16 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home3/mclreojt/public_html/ViewStatus.php on line 133
+[05-Aug-2020 18:58:39 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home3/mclreojt/public_html/ViewStatus.php on line 133
+[05-Aug-2020 18:58:41 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home3/mclreojt/public_html/PendingOrganization.php on line 147
