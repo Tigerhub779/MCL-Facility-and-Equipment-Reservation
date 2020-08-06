@@ -1,0 +1,60 @@
+body{
+    background-image: url("../Images/bg5.png");
+    background-position: center;
+    overflow-x: hidden;
+    height: 700px;
+}
+
+.header{
+    border-bottom: solid 8px rgb(51, 51, 102);
+}
+.header h1{
+    text-align: center;
+}
+
+.jumbotron{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.img-logo{
+    width: 64px;
+    height: 64px;
+}
+
+.container-form{
+    width: 50%;
+}
+
+.form-main{
+    padding: 20px;
+}
+
+.form-header{
+    min-height: 100px;
+    background-color: rgb(6, 6, 43);
+    border-radius: 4px 4px 0px 0px;
+}
+
+.important-label{
+    font-size: 22px;
+}
+
+.form-control{
+    padding: 18px;
+}
+
+
+
+@media screen and (max-width:600px){
+    .container-form{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .container-form{
+        width: 90%;
+    }
+}

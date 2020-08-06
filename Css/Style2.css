@@ -1,0 +1,455 @@
+body{
+    /* background-color: #333366; */
+    /* background-image: url("../Images/bg4.png");
+    background-position: center; */
+    background-color: rgb(206, 206, 214);
+}
+
+
+header{
+   /* background-image: url("../Images/bg4.png");
+    background-position: center;
+    */
+    z-index: 2;
+    position: static;
+    width: 100%;
+    color: white;
+   background-color: rgb(7, 7, 48);
+    height: 250px;
+    display: flex;
+    align-items: flex-start;
+}
+header .top{
+    display: flex;
+   flex-flow: row wrap;
+   align-items: center;
+   width: 95%;
+   height: 50%;
+   margin: auto;
+   margin-top: 0px;
+}
+
+#mcl-logo{
+    max-width: 84px;
+    max-height: 84px;
+    margin-right: 10px;
+}
+
+#menu{
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.box{
+    background-color: white;
+    min-height: 280px;
+    width: 63%;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow:  0px 0px 10px rgba(19, 18, 18, 0.4);
+    border-radius: 5px;
+}
+.minH-auto{
+    min-height:auto;
+}
+#starter{
+    margin-top: -100px;
+}
+.btn{
+    min-width: 84px;
+    width: auto;
+}
+.line-design{
+    background-color: rgb(7, 7, 48);
+    height: 50px;
+}
+
+.loading-overlay{
+    display: none;
+    background-color: rgba(180, 180, 180, 0.4);
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.loading-container{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#terms-conditionBox{
+    min-height: 300px;
+}
+
+#terms-conditionBox .line-design{
+    background-color: rgb(7, 7, 48);
+}
+.container-form{
+    height: 670px;
+    overflow-y: scroll;
+}
+
+.container-text{
+    width: 93%;
+    margin: auto;
+}
+.container-form p{
+    font-size: large;
+    text-align: justify;
+}
+
+footer{
+    padding-top:40px;
+    margin-top: 80px;
+    min-height: 300px;
+    background-color: rgb(7, 7, 48);
+}
+.buttons{
+    width: 63%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+#next-btn,#submit-btn{
+    margin-left: auto;
+}
+
+.form-txt{
+    font-size: 22px;
+}
+
+.upper-border{
+    border-top: solid 4px rgb(128, 20, 47);
+    background-color: rgb(7, 7, 48);
+    color: white;
+}
+
+
+input[type="checkbox"]{
+    padding: 10px;
+}
+
+
+
+.details-indicators>li{
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+label{
+    font-size: 20px;
+}
+
+.form-group{
+    margin-bottom: 1.5rem;
+}
+
+.profileBox,.dateBox,.venueBox,.orgBox,.finalBox,.boxRemarks,#organization-none
+,#finalSignatureBox,#submit-btn{
+    display:none; 
+}
+#venues{
+    min-height: 550px;
+}
+#prev-btn{
+    display: none;
+}
+
+.equipmentForm{
+    display: none;
+
+}
+
+.bg-colorTheme{
+    background-color: rgb(7, 7, 48);
+    color: white;
+}
+.bg-colorTheme2{
+    background-color: rgb(228, 104, 104);
+}
+.venue-container{
+    padding: 15px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    height: 380px; 
+    width:100%;
+     overflow-y:scroll;
+      overflow-x: visible;
+}
+
+.venue-container{
+    border-bottom: solid 3px grey;
+}
+
+.item-container{
+    padding: 15px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    height: 300px; 
+    width:100%;
+     overflow-y:auto;
+      overflow-x:hidden;
+}
+
+.headerVenue{
+    background-color:grey
+}
+
+
+.addBtnItem{
+    margin-left: auto;
+}
+textarea.form-control{
+    height: 300px;
+}
+
+.equipmentForm textarea.form-control{
+    height: 350px;
+}
+
+.signature{
+    width: 100%;
+    height: 300px;
+}
+
+.signatureBox{
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    background-color: rgb(235, 227, 227);
+}
+
+.border-container{
+    border: solid 2px rgb(138, 136, 136);
+    border-radius: 5px;
+}
+.finalBox .name-container{
+    width: 100%;
+}
+.form-control-signature{
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid black;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.label-signature{
+    width: 100%;
+    font-size: 17px;
+    text-align: center;
+}
+
+.signature-Input{
+    width: 80%;
+    margin: auto;
+}
+
+.modal-sign{
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+   background-color: rgba(0,0,0,0.4); 
+}
+
+.signatureCanva{
+    /* display: none; */
+    opacity: 0;
+    position: relative;
+    top:0;
+    /* top: 27%; */
+    width: 60%;
+    margin: auto;
+    height: 65%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.closeModal{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.4);
+    cursor: pointer;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.closeModal:hover{
+    color: rgba(0,0,0);
+}
+
+.box-canvas{
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    margin-top: 10px;
+    border:  4px dashed black;
+    border-radius: 10px;
+}
+#canvas{
+    border: solid 1px red;
+}
+
+.noticeCanvas{
+    position: absolute;
+    top:33%;
+    left: 30%;
+    cursor: pointer;
+}
+
+.noticeCanvas h1{
+    color: grey;
+    font-size: 70px;
+}
+.form-control[readonly]{
+    background-color:rgba(167, 165, 164, 0.6);
+}
+.form-control[name="important"][readonly]{
+    background-color:rgba(147, 233, 183, 0.6);
+}
+
+#validationBox{
+    display: none;
+    width:60%;
+    margin: auto;
+    margin-top: 20px;
+    min-height: 100px;
+    background-color: rgb(238, 171, 171);
+    border-radius: 4px;
+    color: red;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.venueColorContainer{
+    border-radius: 4px;
+}
+
+#equipmentRemarks,#venueRemarks{
+    display: none;
+}
+#equipmentRemarksIndicator,#venueRemarksIndicator{
+    cursor: pointer;
+    filter: grayscale(95%);
+}
+
+
+#equipmentRemarksIndicator:hover,#venueRemarksIndicator:hover{
+    filter: grayscale(0%);
+}
+
+.align-center{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.invalid-feedback{
+    font-size: 1rem;
+}
+
+.modal-format-info{
+    z-index: 3;
+    position: absolute;
+    /* bottom: 60%; */
+    display: none;
+    bottom: 115%;
+    box-sizing: border-box;
+    right: 6%;
+    width: 360px;
+    height: 230px;
+    border-radius: 5px;
+    background-color:white;
+    /* overflow-y: visible; */
+}
+
+.modal-format-header{
+    background-color: rgb(236, 141, 141);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.modal-format-info>ul>li{
+    margin-top: 10px;
+}
+
+.modal-format-info::after{
+    content: "";
+  position: absolute;
+  top: 100%;
+  left: 90%;
+ border-width: 15px;
+  border-style: solid;
+  border-color: rgb(233, 115, 115) transparent transparent transparent;
+  box-shadow: rgba(122, 122, 122, 0.377);
+}
+.format-info{
+    position: absolute;
+    bottom:40%;
+    left: 10%;
+}
+.format-info::after{
+    content: "";
+  position: absolute;
+  top: 100%;
+  left: 10%;
+ border-width: 15px;
+  border-style: solid;
+  border-color: rgb(233, 115, 115) transparent transparent transparent;
+  box-shadow: rgba(122, 122, 122, 0.377);
+}
+.designVenue{
+    overflow-x: visible;
+}
+
+.nav-tab{
+    margin:0;
+    /* padding:0; */
+    background-color:rgb(243, 117, 117);
+    display: flex;
+}
+.nav-tab>*{
+    margin:0;
+    padding-right: 20px;
+    margin-right: 7px;
+    cursor: pointer;
+    
+}
+
+.on-review-tab{
+    color: rgb(66, 136, 66);
+    background-color:white;
+    padding:5px 25px 5px 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+#Reservation-Form,#Organization-Form{
+    padding:10px;
+    background-color: white;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+#Organization-Form{
+    display: none;
+}
+.mainFormHeader{
+    background-color: rgb(7, 7, 48);
+}
+
+.important[readonly]{
+    background-color:rgba(147, 233, 183, 0.6);
+}
+
+.details-request-msg>li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:1.1rem;
+}
