@@ -1,2 +1,2 @@
 # MCL-Facility-and-Equipment-Reservation
- An ojt based project with Simon Asino and Arlene Rioflorido
+ An ojt based project created by James Michael E. Paz, Simon Asino and Arlene Rioflorido
